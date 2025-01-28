@@ -245,7 +245,6 @@ article p{
 footer{
 
     background-color: #000;
-    color: #fff;
 
 }
 
@@ -279,6 +278,7 @@ footer h4{
 
     font-size: 18px;
     font-weight: 400;
+    color: #fff;
 
 }
 
