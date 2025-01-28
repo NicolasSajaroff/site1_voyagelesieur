@@ -205,11 +205,120 @@ h2{
 
 /*---FIN de la SECTION "TITRE_SECTION"---*/
 
+/*---SECTION "CONTENU_TRANSPORT"---*/
+
+.conteneur_transport{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 60px;
+
+}
+
+article h3{
+
+    font-size: 36px;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 0;
+
+}
+
+article p{
+
+    font-size: 18px;
+    text-align: center;
+    margin-top: 0;
+
+}
+
+.titre_gras{
+
+    font-weight: bold;
+
+}
+
 /*---FIN de la SECTION "CONTENU_TRANSPORT"---*/
 
+/*---FOOTER---*/
 
+footer{
 
-/*---FIN de la SECTION "CONTENU_TRANSPORT"---*/
+    background-color: #000;
+    color: #fff;
+
+}
+
+footer a{
+
+    width: 32px;
+    height: 32px;
+
+    display: inline-block;
+
+}
+
+footer nav ul{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    list-style-type: none;
+
+}
+
+/*images des médias*/
+
+.facebook a{
+
+    background-image: url("../images/facebook_icone.jpg");
+
+}
+
+.twitter a{
+
+    background-image: url("../images/twitter_icone.jpg");
+
+}
+
+.linkedin a{
+
+    background-image: url("../images/linkedin_icone.jpg");
+
+}
+
+.pinterest a{
+
+    background-image: url("../images/pinterest_icone.jpg");
+
+}
+
+.facebook a:hover{
+
+    background-image: url("../images/facebook_survol_icone.jpg");
+
+}
+
+.twitter a:hover{
+
+    background-image: url("../images/twitter_survol_icone.jpg");
+
+}
+
+.linkedin a:hover{
+
+    background-image: url("../images/linkedin_survol_icone.jpg");
+
+}
+
+.pinterest a:hover{
+
+    background-image: url("../images/pinterest_survol_icone.jpg");
+
+}
+
+/*---FIN du FOOTER---*/
 
 /*------------------------------------------------------------
 PROPRIÉTÉS DES MODULES
