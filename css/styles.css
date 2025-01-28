@@ -261,10 +261,24 @@ footer a{
 footer nav ul{
 
     display: flex;
+    gap: 20px;
+
+    list-style-type: none;
+
+}
+
+footer .wrapper{
+
+    display: flex;
     justify-content: space-between;
     align-items: center;
 
-    list-style-type: none;
+}
+
+footer h4{
+
+    font-size: 18px;
+    font-weight: 400;
 
 }
 
