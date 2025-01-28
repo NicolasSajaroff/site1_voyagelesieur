@@ -21,3 +21,130 @@ FONTS GOOGLE FONTS
 /*------------------------------------------------------------
 FIN DES FONTS GOOGLE FONTS
 ------------------------------------------------------------*/ 
+
+/*------------------------------------------------------------
+PROPRIÉTÉS DU BOX SIZING - BASE
+------------------------------------------------------------*/ 
+
+html{
+
+    box-sizing: border-box;
+
+}
+
+*,*:before,*:after{
+
+    box-sizing: inherit;
+
+}
+
+/*------------------------------------------------------------
+FIN DES PROPRIÉTÉS DU BOX SIZING - BASE
+------------------------------------------------------------*/ 
+
+/*------------------------------------------------------------
+PROPRIÉTÉS DES ÉLÉMENTS
+------------------------------------------------------------*/ 
+
+body{
+
+    margin: 0;
+    padding: 0;
+
+    font-family: "Roboto", serif;
+
+    font-size: 18px;
+
+}
+
+.wrapper{
+
+    max-width: 1080px;
+    margin: 0 auto; /*0 veut dire que top et bottom = 0, et auto affect left et right*/
+
+}
+
+a{
+
+    text-decoration: none;
+
+}
+
+/*------------------------------------------------------------
+PROPRIÉTÉS DES ÉLÉMENTS
+------------------------------------------------------------*/ 
+
+/*------------------------------------------------------------
+PROPRIÉTÉS DES MODULES
+------------------------------------------------------------*/ 
+
+/*---HEADER---*/
+
+header{
+
+    background-color: #F26C25;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+header .wrapper{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.logo{
+
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+
+a p{
+
+    font-size: 36px;
+    font-weight: bold;
+    color: #fff;
+
+    margin: 0;
+
+}
+
+.majuscule_logo{
+
+    text-transform: uppercase;
+
+}
+
+header ul{
+
+    display: flex;
+    gap: 40px;
+
+    list-style-type: none;
+
+    padding: 0;
+
+}
+
+header nav a{
+
+    color: #fff;
+
+}
+
+header nav a:hover{
+
+    text-decoration: underline;
+
+}
+
+/*---FIN du HEADER---*/
+
+/*------------------------------------------------------------
+PROPRIÉTÉS DES MODULES
+------------------------------------------------------------*/ 
